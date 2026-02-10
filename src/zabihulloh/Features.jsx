@@ -4,8 +4,9 @@ import book from "../assets/book.webp"
 import phone from "../assets/phone.webp"
 import teacher from "../assets/teacher.webp"
 import programImg from "../assets/program.webp"
-
+import { useTranslation } from "react-i18next"
 export default function Features() {
+  const { t } = useTranslation()
   return (
     <section className="bg-[#f6f7f9] px-4 sm:px-8 lg:px-16 py-12 lg:py-16">
       <div
@@ -19,11 +20,10 @@ export default function Features() {
         {/* Oxford */}
         <div className="group relative bg-white rounded-[24px] lg:rounded-[28px] p-5 lg:p-6 overflow-hidden">
           <h3 className="text-[18px] lg:text-[20px] font-semibold mb-3 leading-snug">
-            Oxford University Press dasturi
+            {t('dastur')}
           </h3>
           <p className="text-[14px] lg:text-[15px] text-gray-500 leading-[22px] max-w-[90%]">
-            Umumiy ingliz tilining 5 bosqichi uchun dunyoning eng yetakchi va
-            litsenziyalangan Britaniya o‘quv dasturi.
+            {t("dasturP")}
           </p>
 
           <img
@@ -50,7 +50,7 @@ export default function Features() {
           "
         >
           <h2 className="text-[20px] lg:text-[22px] font-semibold mb-4">
-            Student App raqamli platforma
+            {t("appT1")}
           </h2>
 
           <img
@@ -65,8 +65,7 @@ export default function Features() {
           />
 
           <p className="text-[14px] lg:text-[15px] text-gray-300 leading-[22px] max-w-[90%] mx-auto">
-            Ingliz tili o‘rganishning ikkinchi avlod ta’limi, yangi so‘zlarni
-            yodlash va uy vazifalarini bajarish endi raqamli platformada.
+            {t("appTp")}
           </p>
 
           <button
@@ -80,17 +79,17 @@ export default function Features() {
               transition hover:scale-105
             "
           >
-            ▶ Platformani ko‘rish
+            ▶ {t("appButton")}
           </button>
         </div>
 
         {/* Teachers */}
         <div className="group relative bg-white rounded-[24px] lg:rounded-[28px] p-5 lg:p-6 overflow-hidden">
           <h3 className="text-[18px] lg:text-[20px] font-semibold mb-3">
-            IELTS 9.0 va CELTA egalardan darslar
+            {t("ustozT")}
           </h3>
           <p className="text-[14px] lg:text-[15px] text-gray-500 leading-[22px] max-w-[90%]">
-            Har bir talaba uchun 3ta malakali o‘qituvchilar.
+            {t("ustozP")}
           </p>
 
           <img
@@ -108,11 +107,10 @@ export default function Features() {
         {/* IELTS X */}
         <div className="group relative bg-white rounded-[24px] lg:rounded-[28px] p-5 lg:p-6 overflow-hidden">
           <h3 className="text-[18px] lg:text-[20px] font-semibold mb-2">
-            © IELTS X — faqat bizda!
+            {t("darajaT")}
           </h3>
           <p className="text-[14px] lg:text-[15px] text-gray-500 leading-[22px] max-w-[90%]">
-            IELTS 9.0 egalari va Native Speakerlar tomonidan ishlab chiqilgan
-            yagona o‘quv dasturi.
+            {t("darajaP")}
           </p>
 
           <button
@@ -125,7 +123,7 @@ export default function Features() {
               transition hover:bg-gray-100
             "
           >
-            ▶ Dasturini ko‘rish
+            ▶ {t("darajaTugma")}
           </button>
 
           <img
@@ -143,11 +141,10 @@ export default function Features() {
         {/* Academic support */}
         <div className="group relative bg-white rounded-[24px] lg:rounded-[28px] p-5 lg:p-6 overflow-hidden">
           <h3 className="text-[18px] lg:text-[20px] font-semibold mb-2">
-            Academic support
+            {t("support")}
           </h3>
           <p className="text-[14px] lg:text-[15px] text-gray-500 leading-[22px] max-w-[90%]">
-            Har bir o‘quvchi bilan individual ishlash uchun darsdan tashqari
-            qo‘shimcha o‘qituvchi.
+            {t("supportT")}
           </p>
 
           <img

@@ -1,6 +1,7 @@
 import ustozlar from "../assets/event.webp"
-
+import { useTranslation } from "react-i18next"
 export default function Tadbir() {
+  const { t } = useTranslation()
   return (
     <section className="px-4 sm:px-8 lg:px-16 py-10 lg:py-14">
       <div
@@ -24,7 +25,7 @@ export default function Tadbir() {
               font-bold text-black
             "
           >
-            Studentlar uchun maxsus tashkillashtiriladigan tadbirlar
+            {t('oquvTadbir')}
           </h1>
 
           <div
@@ -37,8 +38,7 @@ export default function Tadbir() {
           >
             <span className="text-[20px] lg:text-[22px]">✨</span>
             <p>
-              Mashhur inflyunserlar va muvaffaqiyatli biznesmenlar bilan
-              uchrashuvlar
+             {t("oquvTadbirP")}
             </p>
           </div>
 
@@ -52,8 +52,7 @@ export default function Tadbir() {
           >
             <span className="text-[20px] lg:text-[22px]">✨</span>
             <p>
-              Bepul IELTS CD Mock imtihonlar va har hafta maxsus Speaking
-              klublari
+              {t("oquvTadbirP1")}
             </p>
           </div>
 
@@ -69,7 +68,7 @@ export default function Tadbir() {
               transition hover:scale-105
             "
           >
-            Tadbirlarni ko‘rish
+            {t("oquvTadbirButton")}
             <span
               className="
                 flex items-center justify-center

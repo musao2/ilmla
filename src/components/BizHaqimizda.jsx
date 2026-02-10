@@ -5,19 +5,21 @@ import Ikki from '../images/2.svg'
 import Uch from '../images/3.svg'
 import Tort from '../images/4.svg'
 import Besh from '../images/5.svg'
-
+import { useTranslation } from "react-i18next";
+import i18n from "../i18n";
 function Bi() {
+    const { t } = useTranslation()
   const stats = [
-    { title: "Filiallar", value: "13", icon: Bir },
-    { title: "Xodimlar", value: "600+", icon: Ikki },
-    { title: "Faoliyat davri", value: "13 yil", icon: Uch },
-    { title: "O'quvchilar", value: "21,000+", icon: Tort },
-    { title: "Bitiruvchilar", value: "200,000+", icon: Besh },
+    { title: t("filialla"), value: "13", icon: Bir },
+    { title: t("xodimla"), value: "600+", icon: Ikki },
+    { title: t("faoliyat"), value: "13 yil", icon: Uch },
+    { title: t("oquvchilar"), value: "21,000+", icon: Tort },
+    { title: t("bituruvchilar"), value: "200,000+", icon: Besh },
   ];
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <h2 className="text-center font-bold text-4xl mb-12">Biz haqimizda</h2>
+      <h2 className="text-center font-bold text-4xl mb-12">{t("biz")}</h2>
 
       <div className="flex flex-col lg:flex-row gap-10">
         
