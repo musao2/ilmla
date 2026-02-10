@@ -12,7 +12,7 @@ export default function Tadbir() {
             </div>
             <div>
                 <img
-                className="absolute right-15 top-[1370px]  w-80 "
+                className="relative right-[-60px] top-30   w-80 "
                 src={ustozlar} 
                 alt="" />
             </div>
