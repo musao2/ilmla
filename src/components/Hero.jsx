@@ -16,7 +16,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className="relative z-10 flex flex-col justify-center top-160
+      <div className="relative z-10 flex flex-col justify-center top-140
       px-6 sm:px-10 lg:px-20 max-w-6xl">
 
         <h2 className="
@@ -42,7 +42,7 @@ export default function Hero() {
         <button className="
         mt-4 w-fit
         flex items-center gap-2
-        bg-amber-500 text-black
+        bg-amber-500
         py-3 px-5 rounded-2xl font-semibold
 
         transition-all duration-300 ease-in-out
