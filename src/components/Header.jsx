@@ -4,7 +4,7 @@ import { FaUser, FaBars, FaTimes } from "react-icons/fa";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const navLinks = [
+ const navLinks = [
     "Biz haqimizda",
     "Narxlar",
     "Natijalar",
