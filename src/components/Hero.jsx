@@ -16,7 +16,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className="relative z-10 flex flex-col justify-center top-170
+      <div className="relative z-10 flex flex-col justify-center top-150
       px-4 sm:px-10 lg:px-20 max-w-6xl">
 
         <h2 className="
