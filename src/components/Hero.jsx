@@ -16,8 +16,8 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className="relative z-10 flex flex-col justify-center top-140
-      px-6 sm:px-10 lg:px-20 max-w-6xl">
+      <div className="relative z-10 flex flex-col justify-center top-170
+      px-4 sm:px-10 lg:px-20 max-w-6xl">
 
         <h2 className="
         text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
