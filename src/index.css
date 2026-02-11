@@ -1,1 +1,15 @@
 @import "tailwindcss";
+@keyframes blinkDot {
+  0%, 100% {
+    background-color: #ef4444; /* qizil */
+    box-shadow: 0 0 8px #ef4444;
+  }
+  50% {
+    background-color: #ffffff; /* oq */
+    box-shadow: 0 0 12px #ffffff;
+  }
+}
+
+.blink-dot {
+  animation: blinkDot 2.5s infinite ease-in-out;
+}

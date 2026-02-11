@@ -38,8 +38,18 @@ const resources = {
             oquvTadbir: "Studentlar uchun maxsus tashkillashtiriladigan tadbirlar",
             oquvTadbirP: " Mashhur inflyunserlar va muvaffaqiyatli biznesmenlar bilan uchrashuvlar",
             oquvTadbirP1: " Mashhur inflyunserlar va muvaffaqiyatli biznesmenlar bilan uchrashuvlar",
-            oquvTadbirButton: "Tadbirlarni ko‘rish"
-
+            oquvTadbirButton: "Tadbirlarni ko‘rish",
+            onlineButton: "INTER NATION ONLINE",
+            onlineh2: "Yangi darajadagi masofaviy ta‘lim!",
+            onlineP: "Siz uchun yangi imkoniyat! Endilikda ingliz tilini o’rganishga masofa, vaqt, sharoit yoki pul muammo emas!",
+            onlineP1: "Birgina smartfon yoki kompyuter bilan istalgan joydan ingliz tilini o’rganing",
+            onlineP2: "Ustozlarimiz CELTA va IELTS 9.0 sertifikatiga ega malakali mutaxassislar",
+            onlineP3: "Student App orqali qulay va to’liq nazoratdagi darslar",
+            onlineP4: "Online ta’lim formati offlayn ta’lim sifati darajasida",
+            onlineP5: "Qat‘iy nazorat va barqaror qo'llab-quvvatlash",
+            onlineP6: "Endi ingliz tilini o'rganish imkoniyati hamma uchun ochiq! Bu - erkinlik, zamonaviy ta‘lim va INTER NATION sifati!",
+            buttonOqish: "Online o'qish",
+            buttonkorish: "Videoni ko'rish",
         }
     },
     en: {
@@ -78,7 +88,18 @@ const resources = {
             oquvTadbir: "Special Events Organized for Students",
             oquvTadbirP: "Meetings with famous influencers and successful entrepreneurs",
             oquvTadbirP1: "Free IELTS CD Mock exams and weekly special Speaking clubs",
-            oquvTadbirButton: "View the events"
+            oquvTadbirButton: "View the events",
+            onlineButton: "INTER NATION ONLINE",
+            onlineh2: "A new level of distance learning!",
+            onlineP: "A new opportunity for you! From now on, distance, time, circumstances or money are no longer an obstacle to learning English!",
+            onlineP1: "Learn English from anywhere with just a smartphone or computer",
+            onlineP2: "Our teachers are qualified specialists with CELTA certificates and IELTS Band 9.0 scores",
+            onlineP3: "Convenient and fully monitored lessons through the Student App",
+            onlineP4: "Online education format at the level of offline education quality.",
+            onlineP5: "Strict supervision and consistent support",
+            onlineP6: "Now everyone has the opportunity to learn English! This is freedom, modern education, and INTER NATION quality!",
+            buttonOqish: "Learn online",
+            buttonkorish: "Watch the video",
         }
     }
 };
