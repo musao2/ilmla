@@ -1,4 +1,4 @@
-
+import Online from "./components/Online"
 import Features from "./zabihulloh/Features"
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -12,6 +12,7 @@ function App(){
     <Biz/>
     <Features />
     <Tadbir/>
+    <Online/>
     </>
   )
 }
