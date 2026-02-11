@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Tadbir from "./zabihulloh/Tadbir"
 import Biz from "../src/components/BizHaqimizda"
+import USTOZLAR from "./zabihulloh/Ustozlarim"
 function App(){
   return(
     <>
@@ -12,6 +13,7 @@ function App(){
     <Biz/>
     <Features />
     <Tadbir/>
+    <USTOZLAR/>
     <Online/>
     </>
   )
