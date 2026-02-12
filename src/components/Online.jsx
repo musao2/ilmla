@@ -22,7 +22,7 @@ function Online() {
 
                     <p className="text-lg text-black">
                         {t("onlineP")}
-                    </p>
+          ``          </p>
 
                     <div className="flex flex-col gap-3 text-lg">
                         <p className="flex items-center gap-2"><PiStarFourFill className="text-amber-500" />{t("onlineP1")}</p>
